@@ -57,9 +57,9 @@ if __name__ == '__main__':
     """chat = ChatOpenAI(
         base_url="https://api.deepseek.com",
         model_name="deepseek-reasoner",
-        openai_api_key="sk-ac7364efef8d48ba9bdf02fae50a0020"
+        openai_api_key="api_key"
     )"""
-    client = OpenAI(api_key="sk-ac7364efef8d48ba9bdf02fae50a0020", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="api_key", base_url="https://api.deepseek.com")
 
     result_data_path = "output/lot/rating/ai_rating.jsonl"
     for path_idx,record in enumerate(data):

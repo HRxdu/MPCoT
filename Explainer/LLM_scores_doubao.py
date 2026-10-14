@@ -58,13 +58,13 @@ if __name__ == '__main__':
     """chat = ChatOpenAI(
         base_url="https://api.deepseek.com",
         model_name="deepseek-reasoner",
-        openai_api_key="sk-ac7364efef8d48ba9bdf02fae50a0020"
+        openai_api_key="api_key"
     )"""
     client = OpenAI(
         # 此为默认路径，您可根据业务所在地域进行配置
         base_url="https://ark.cn-beijing.volces.com/api/v3",
         # 从环境变量中获取您的 API Key。此为默认方式，您可根据需要进行修改
-        api_key="8b499071-dc00-4ead-a100-30089e342311",
+        api_key="api_key",
     )
 
     result_data_path = "output/lot/rating/ai_rating_doubao.jsonl"
