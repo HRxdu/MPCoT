@@ -68,6 +68,6 @@ parser.add_argument("--parallel_argument_num", default=3)
 parser.add_argument("--refined_tolerance", default=3)
 parser.add_argument("--thinking_steps", default=4)
 parser.add_argument('--threshold', type=float, default=0.9, help='预测阈值')
-parser.add_argument('--api_key', type=str, default="sk-ncqckmctyibzcmyeverjkctlgrqihjhbwfughrmxtvdlmutw", help='api key')
+parser.add_argument('--api_key', type=str, default="api key", help='api key')
 
 args = parser.parse_args(args=[])
